@@ -1,0 +1,32 @@
+{
+  "name": "james-cson",
+  "version": "0.1.0",
+  "description": "James plugin to compile CSON to JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "coffee",
+    "coffeescript",
+    "json",
+    "cson",
+    "script",
+    "build",
+    "tool",
+    "james"
+  ],
+  "author": {
+    "name": "Vesa Poikajärvi <vesa.poikajarvi@leonidasoy.fi>"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "james": "~0.1.15",
+    "cson": "~1.4.5"
+  },
+  "devDependencies": {
+    "readable-stream": "~1.1.9",
+    "mocha": "~1.15.1"
+  }
+}
