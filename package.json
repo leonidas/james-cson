@@ -4,9 +4,15 @@
   "description": "James plugin to compile CSON to JSON.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter spec test/*.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonidas/james-cson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leonidas/james-cson/issues"
+  },
   "keywords": [
     "coffee",
     "coffeescript",
@@ -20,7 +26,10 @@
   "author": {
     "name": "Vesa Poikajärvi <vesa.poikajarvi@leonidasoy.fi>"
   },
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/leonidas/james-cson/blob/master/LICENSE"
+  },
   "dependencies": {
     "james": "~0.1.15",
     "cson": "~1.4.5"
