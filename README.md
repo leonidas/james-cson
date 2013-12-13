@@ -19,4 +19,4 @@ james.task('default', function() {
 
 ## API
 
-`cson`: Return a new CSON to JSON transformer.
+`cson(options)`: Return a new CSON to JSON transformer.

@@ -3,6 +3,11 @@ var james = require('james'),
 
 module.exports = function(options) {
   return james.createStream(function(file, callback) {
-    callback(JSON.stringify(CSON.parseSync(file)));
+    CSON.parse(file, options, function(err, res) {
+      if (err) {
+        throw new Error(err);
+      }
+      callback(JSON.stringify(res));
+    });
   });
 };
