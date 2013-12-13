@@ -1,5 +1,7 @@
 # Synopsis
 
+[![Build Status](https://travis-ci.org/leonidas/james-cson.png)](https://travis-ci.org/leonidas/james-cson)
+
 [CSON](https://github.com/bevry/cson) to JSON transformer for [James.js](https://github.com/leonidas/james.js).
 
 ```javascript

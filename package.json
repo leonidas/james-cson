@@ -4,7 +4,7 @@
   "description": "James plugin to compile CSON to JSON.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec test/*.js"
+    "test": "jshint *.js **/*.js && mocha --reporter spec test/*.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "readable-stream": "~1.1.9",
-    "mocha": "~1.15.1"
+    "mocha": "~1.15.1",
+    "jshint": "~2.3.0"
   }
 }
