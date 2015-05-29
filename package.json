@@ -31,8 +31,8 @@
     "url": "https://github.com/leonidas/james-cson/blob/master/LICENSE"
   },
   "dependencies": {
-    "james": "~0.1.15",
-    "cson": "~1.4.5"
+    "james": "leonidas/james.js#coffee-script-register",
+    "cson": "~3.0.1"
   },
   "devDependencies": {
     "readable-stream": "~1.1.9",
